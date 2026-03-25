@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 104c35711512a0548a86684f1fc5f74a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterType: 0
+  characterType: 1
   gruntHitSoundClip: {fileID: 8300000, guid: fefa6bf2aec2b7b44ab20ed1f246b4f6, type: 3}
   mollyHitSoundClip: {fileID: 8300000, guid: f77f4d6831de6d944898724c4c6342f1, type: 3}
   eddieHitSoundClip: {fileID: 8300000, guid: cb48e4e742d7e1540ba00de148170fa3, type: 3}
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   broPrefab: {fileID: 111416562540733743, guid: 049d4a2dca1a5ba4fac807ac613ce28b, type: 3}
   maxHealth: 5
-  characterType: 0
+  characterType: 1
   isDead: 0
   gruntDamageSoundClip: {fileID: 8300000, guid: 09d2e38738555aa4482a5532adfbf1b8, type: 3}
   mollyDamageSoundClip: {fileID: 8300000, guid: 16f04e96102f84640b3ed156f58fc43b, type: 3}

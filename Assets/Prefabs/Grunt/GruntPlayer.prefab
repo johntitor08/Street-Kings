@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3520779919957382049}
   - component: {fileID: 8096584547575897228}
   - component: {fileID: 551096978101944596}
+  - component: {fileID: 6730019200307231164}
   - component: {fileID: 6922087822955859481}
   - component: {fileID: 6102692876680787836}
   - component: {fileID: 7126436503970023560}
@@ -134,6 +135,19 @@ MonoBehaviour:
   gruntDamageSoundClip: {fileID: 8300000, guid: 09d2e38738555aa4482a5532adfbf1b8, type: 3}
   mollyDamageSoundClip: {fileID: 8300000, guid: 16f04e96102f84640b3ed156f58fc43b, type: 3}
   eddieDamageSoundClip: {fileID: 8300000, guid: c6edc66489d94f1428122cea0471958a, type: 3}
+--- !u!114 &6730019200307231164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9193182474582929405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344fd51867600be49a386ec66e2524f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterType: 0
   gruntHitSoundClip: {fileID: 8300000, guid: fefa6bf2aec2b7b44ab20ed1f246b4f6, type: 3}
   mollyHitSoundClip: {fileID: 8300000, guid: f77f4d6831de6d944898724c4c6342f1, type: 3}
   eddieHitSoundClip: {fileID: 8300000, guid: cb48e4e742d7e1540ba00de148170fa3, type: 3}

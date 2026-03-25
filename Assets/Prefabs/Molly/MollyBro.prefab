@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b277009b296ad42bb7586ee3445660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterType: 0
+  characterType: 1
   gruntHitSoundClip: {fileID: 8300000, guid: fefa6bf2aec2b7b44ab20ed1f246b4f6, type: 3}
   mollyHitSoundClip: {fileID: 8300000, guid: f77f4d6831de6d944898724c4c6342f1, type: 3}
   eddieHitSoundClip: {fileID: 8300000, guid: cb48e4e742d7e1540ba00de148170fa3, type: 3}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 5
-  characterType: 0
+  characterType: 1
   gruntDamageSoundClip: {fileID: 8300000, guid: 09d2e38738555aa4482a5532adfbf1b8, type: 3}
   mollyDamageSoundClip: {fileID: 8300000, guid: 16f04e96102f84640b3ed156f58fc43b, type: 3}
   eddieDamageSoundClip: {fileID: 8300000, guid: c6edc66489d94f1428122cea0471958a, type: 3}

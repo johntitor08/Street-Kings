@@ -1,6 +1,9 @@
 using UnityEngine;
 using Unity.Cinemachine;
 
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(AudioSource))]
 public class PlayerHealth : MonoBehaviour
 {
     private Rigidbody2D rb;
@@ -12,9 +15,6 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private AudioClip gruntDamageSoundClip;
     [SerializeField] private AudioClip mollyDamageSoundClip;
     [SerializeField] private AudioClip eddieDamageSoundClip;
-    [SerializeField] private AudioClip gruntHitSoundClip;
-    [SerializeField] private AudioClip mollyHitSoundClip;
-    [SerializeField] private AudioClip eddieHitSoundClip;
 
     private void Start()
     {
@@ -69,49 +69,5 @@ public class PlayerHealth : MonoBehaviour
         }
 
         Destroy(gameObject);
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (!collision.gameObject.CompareTag("Enemy"))
-            return;
-
-        Vector2 hitDir = (collision.transform.position - transform.position).normalized;
-        collision.gameObject.GetComponent<EnemyHealth>().TakeDamage(1, hitDir);
-        GetComponent<PlayerFlip>().FlipOnPunch(hitDir);
-        animator.SetTrigger("Hit");
-        PlayHitSound(characterType);
-        PlayDamageSoundForEnemy(collision.gameObject.GetComponent<CharacterIdentity>()?.characterType);
-    }
-
-    private void PlayHitSound(CharacterType type)
-    {
-        AudioClip clip = type switch
-        {
-            CharacterType.Grunt => gruntHitSoundClip,
-            CharacterType.Molly => mollyHitSoundClip,
-            CharacterType.Eddie => eddieHitSoundClip,
-            _ => null
-        };
-
-        if (clip != null)
-            audioSource.PlayOneShot(clip);
-    }
-
-    private void PlayDamageSoundForEnemy(CharacterType? type)
-    {
-        if (type == null)
-            return;
-
-        AudioClip clip = type switch
-        {
-            CharacterType.Grunt => gruntDamageSoundClip,
-            CharacterType.Molly => mollyDamageSoundClip,
-            CharacterType.Eddie => eddieDamageSoundClip,
-            _ => null
-        };
-
-        if (clip != null)
-            audioSource.PlayOneShot(clip);
     }
 }

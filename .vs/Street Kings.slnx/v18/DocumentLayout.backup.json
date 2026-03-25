@@ -7,8 +7,28 @@
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\unity\\street kings\\assets\\scripts\\enemy\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\unity\\street kings\\assets\\scripts\\player\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\unity\\street kings\\assets\\scripts\\ui\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\unity\\street kings\\assets\\scripts\\enemy\\enemyfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\unity\\street kings\\assets\\scripts\\bro\\brofollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bro\\brofollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\unity\\street kings\\assets\\scripts\\bro\\brohealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bro\\brohealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WaveSpawner.cs",
-              "DocumentMoniker": "C:\\Unity\\Street Kings\\Assets\\Scripts\\UI\\WaveSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\WaveSpawner.cs",
-              "ToolTip": "C:\\Unity\\Street Kings\\Assets\\Scripts\\UI\\WaveSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\WaveSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T20:03:50.131Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -41,10 +48,83 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerHealth.cs",
               "ToolTip": "C:\\Unity\\Street Kings\\Assets\\Scripts\\Player\\PlayerHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerHealth.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwD0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T18:55:58.793Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerAttack.cs",
+              "DocumentMoniker": "C:\\Unity\\Street Kings\\Assets\\Scripts\\Player\\PlayerAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerAttack.cs",
+              "ToolTip": "C:\\Unity\\Street Kings\\Assets\\Scripts\\Player\\PlayerAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerAttack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T20:52:48.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BroHealth.cs",
+              "DocumentMoniker": "C:\\Unity\\Street Kings\\Assets\\Scripts\\Bro\\BroHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bro\\BroHealth.cs",
+              "ToolTip": "C:\\Unity\\Street Kings\\Assets\\Scripts\\Bro\\BroHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bro\\BroHealth.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T20:31:11.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BroFollow.cs",
+              "DocumentMoniker": "C:\\Unity\\Street Kings\\Assets\\Scripts\\Bro\\BroFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bro\\BroFollow.cs",
+              "ToolTip": "C:\\Unity\\Street Kings\\Assets\\Scripts\\Bro\\BroFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bro\\BroFollow.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAuwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T20:31:06.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyFollow.cs",
+              "DocumentMoniker": "C:\\Unity\\Street Kings\\Assets\\Scripts\\Enemy\\EnemyFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyFollow.cs",
+              "ToolTip": "C:\\Unity\\Street Kings\\Assets\\Scripts\\Enemy\\EnemyFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyFollow.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAuwH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T20:30:42.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyHealth.cs",
+              "DocumentMoniker": "C:\\Unity\\Street Kings\\Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "ToolTip": "C:\\Unity\\Street Kings\\Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAmwIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T20:29:57.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WaveSpawner.cs",
+              "DocumentMoniker": "C:\\Unity\\Street Kings\\Assets\\Scripts\\UI\\WaveSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\WaveSpawner.cs",
+              "ToolTip": "C:\\Unity\\Street Kings\\Assets\\Scripts\\UI\\WaveSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\WaveSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T20:03:50.131Z"
             }
           ]
         }
